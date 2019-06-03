@@ -1,0 +1,93 @@
+/*
+Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd
+
+For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
+
+<div> 960px
+
+*/
+header{
+    background-color:#ffffff;
+    /*position: fixed;*/
+    left:0;
+    top:0;
+    border-bottom: thin solid #cccccc;
+    margin-bottom:20px;
+    border-bottom-style:solid;
+    border-bottom-color: #777777;
+    border-bottom-width: 5px;
+    margin-bottom:20px;
+    position:relative;
+    width:100%;
+}
+
+body{
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image:url(fishnets-and-hearts.png);
+    background-color:#ffffff;
+    margin:auto;
+}
+
+nav{
+    color: #777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    float: right;
+}
+
+li{
+    text-align:center;
+    display:inline;
+}
+
+li a:hover{
+    background-color:#4aaaa5;
+}
+
+h1{
+    color:#ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float:left; 
+}
+
+h2 {
+    color:#4aaaa5;
+    font-family:'Georgia', Times, Times New Roman, serif;
+    border-bottom: 1px solid #777777;
+    display:inline;
+    clear: both;
+}
+
+span{
+    background-color:#4aaaa5;
+    padding: 0 10px;
+}
+
+div{
+    border: 2px solid #dddddd;
+    background-color:#ffffff;
+    width: 960px;
+    overflow:auto;
+    clear:both;
+}
+
+footer {
+    background-color:#666666; 
+    color:#ffffff; /*added*/
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size:10px;
+    text-align:  center;
+    padding-top: 25px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid #4aaaa5;
+    margin-top:20px;
+}
