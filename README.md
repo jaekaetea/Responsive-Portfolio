@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-Homework Assignment #2
+# Basic-Portfolio
+Homework 1 Recommended - Basic Portfolio
