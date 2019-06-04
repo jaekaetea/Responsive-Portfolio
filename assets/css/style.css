@@ -170,48 +170,65 @@ p{
 
 @media screen and (max-width:768px) {
     .div2
-{
-    width:90%;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
+    {
+        width:90%;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
 
-form{
-    width:95%;
-}
+    form
+    {
+        width:95%;
+    }
 
 } 
 
 @media screen and (max-width:640px) {
     span, ul
-{
-    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
-    text-align: center;
-}
+    {
+        width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+        text-align: center;
+    }
 
     img
-{
-    width:50%;
-    height:50%; 
-    text-align: center;
-    clear: both;
-    float: none;
-    margin-left:25%;
-}
+    {
+        width:50%;
+        height:50%; 
+        text-align: center;
+        clear: both;
+        float: none;
+        margin-left:25%;
+    }
 
     .div2
-{
-    width:80%;
-    margin: auto;
-    margin-top: 160px;
-    margin-bottom: 100px;
-}
+    {
+        width:80%;
+        margin: auto;
+        margin-top: 160px;
+        margin-bottom: 100px;
+    }
 
     .inputArea
-{
-    width: 95%;
-}
+    {
+        width: 95%;
+    }
+
+    header, footer
+    {
+        position: static;
+    }
+
+    ul
+    {
+        background-color:#ffffff;
+        padding:20px;
+        clear:both;
+        margin:0;
+        border-bottom-style:solid;
+        border-bottom-color:#dddddd;
+        border-bottom-width:2px;
+    }
 }
 
 
